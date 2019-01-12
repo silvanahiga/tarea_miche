@@ -1,0 +1,37 @@
+
+.container-fluid {
+    background: #e30052;
+}
+
+.principal {
+        width: 300px;
+        height: 300px;
+  
+}
+
+.caja2 {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .caja {
+        display: none;
+
+    }
+
+    .caja2 {
+        display: block;
+
+    }
+    
+    .inv {
+        visibility: hidden;
+
+
+    }
+    
+
+
+}
