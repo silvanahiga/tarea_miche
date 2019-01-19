@@ -1,6 +1,15 @@
-
-.container-fluid {
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.container {
     background: #e30052;
+    border-style: solid;
+    
+    
 }
 
 .principal {
